@@ -1,7 +1,8 @@
 {
   "name": "ts-itchio-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Types for itch.io API objects (camel-cased)",
+  "main": "src/index.js",
   "types": "src/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
