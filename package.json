@@ -1,11 +1,13 @@
 {
   "name": "ts-itchio-api",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Types for itch.io API objects (camel-cased)",
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run compile",
+    "compile": "tsc",
+    "test": "npm run compile"
   },
   "repository": {
     "type": "git",
@@ -15,12 +17,15 @@
     "api"
   ],
   "files": [
-    "src"
+    "lib"
   ],
   "author": "Amos Wenger <amos@itch.io>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/itchio/ts-itchio-api/issues"
   },
-  "homepage": "https://github.com/itchio/ts-itchio-api#readme"
+  "homepage": "https://github.com/itchio/ts-itchio-api#readme",
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  }
 }

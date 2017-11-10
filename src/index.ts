@@ -353,3 +353,6 @@ export enum BuildFileSubType {
   // reserved
   Accelerated = "accelerated",
 }
+
+const duck = "quack!";
+export default duck;
