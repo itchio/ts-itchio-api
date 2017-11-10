@@ -1,0 +1,22 @@
+{
+  "name": "ts-itchio-api",
+  "version": "1.0.0",
+  "description": "Types for itch.io API objects (camel-cased)",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itchio/ts-itchio-api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Amos Wenger <amos@itch.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itchio/ts-itchio-api/issues"
+  },
+  "homepage": "https://github.com/itchio/ts-itchio-api#readme"
+}
