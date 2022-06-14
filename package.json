@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/itchio/ts-itchio-api#readme",
   "devDependencies": {
-    "typescript": "^2.6.1"
+    "typescript": "^4.7.3"
   }
 }
