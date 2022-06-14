@@ -2,5 +2,4 @@
   "[typescript]": {
     "editor.formatOnSave": true
   },
-  "prettier.trailingComma": "all",
 }
